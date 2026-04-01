@@ -1,3 +1,21 @@
+# Claude Code Instructions: Full Trading Plan Update
+**File:** `context/cc-instruct/update_trading_plan_full_2026033109.md`
+**Created:** 2026-03-31 09:xx am
+**Status:** Execute once
+
+---
+
+## Context
+The trading plan has been significantly expanded in a Claude chat session today. Replace the entire contents of `trading_plan.md` with the content below. Do not merge — full replacement.
+
+---
+
+## Task 1: Replace trading_plan.md
+
+Overwrite `trading_plan.md` in the repo root with the following content exactly:
+
+---
+
 # Trading Plan
 *Built from actual practice — revised only after extended review, never after a bad day*
 
@@ -292,3 +310,17 @@ Progress is not measured in P&L alone. Progress is:
 - More of the process automated so the analytical work scales
 
 **The most important thing is continuous improvement, one day at a time.**
+
+---
+
+## Task 2: Save this instructions file
+```
+context\cc-instruct\update_trading_plan_full_2026033109.md
+```
+
+## Task 3: Commit and Push
+```powershell
+git add .
+git commit -m "update: full trading plan revision — market philosophy, regime, checklist, afternoon process, long-term vision"
+git push
+```
